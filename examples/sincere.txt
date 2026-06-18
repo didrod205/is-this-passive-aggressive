@@ -1,0 +1,12 @@
+Hi Dana,
+
+Thanks for your patience — that one's on me. The report slipped because the data
+import broke on Thursday and I wanted to fix the root cause before sending numbers
+I didn't trust.
+
+It's fixed now. I'll have the report to you by 2pm today, and I'll add a check so
+this can't happen silently again. If the timing is a problem, tell me and I'll send
+a partial version first.
+
+Sorry for the wait, and thanks for flagging it.
+Sam

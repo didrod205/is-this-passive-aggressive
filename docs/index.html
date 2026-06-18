@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>is this passive-aggressive? — decode the venom in any message</title>
+    <meta
+      name="description"
+      content="Paste an email, Slack message or text and see its passive-aggressive phrases decoded into what they actually mean: 'per my last email' → you ignored me, 'no rush, but' → rush, 'noted' → I disagree and I'm done. Venom scored 0–100, 100% in your browser. No AI, nothing uploaded."
+    />
+    <meta property="og:title" content="is this passive-aggressive? 😤" />
+    <meta property="og:description" content="Decode the passive-aggression in any message into what they really mean — with zero AI. 100% local, nothing uploaded." />
+    <script type="module" crossorigin src="./assets/index-DIq59lt_.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-cZuXms5V.css">
+  </head>
+  <body>
+    <header>
+      <h1>is this passive-aggressive? 😤</h1>
+      <p class="tagline">Paste an email, Slack or text. We decode the venom into <strong>what they actually mean.</strong></p>
+      <p class="privacy">🔒 100% in your browser. Rule-based, no AI, nothing uploaded.</p>
+    </header>
+
+    <main>
+      <section class="input-card">
+        <div class="toolbar">
+          <button id="sample-venom" type="button" class="ghost">Load a venomous email</button>
+          <button id="sample-sincere" type="button" class="ghost">Load a sincere one</button>
+          <button id="clear" type="button" class="ghost">Clear</button>
+        </div>
+        <textarea id="input" spellcheck="false" placeholder="Paste the email / Slack message / text you just got (or are about to send)…"></textarea>
+      </section>
+
+      <section id="result" class="result hidden">
+        <div class="scorecard">
+          <div class="gauge"><div id="score" class="score">0</div><div class="of">/100</div></div>
+          <div class="verdict">
+            <div id="label" class="label">Reads sincere</div>
+            <div id="sub" class="sub"></div>
+          </div>
+        </div>
+
+        <h3 class="section-title" id="decoder-title">What they said <span class="dim">→ what they really mean</span></h3>
+        <div id="decoder" class="decoder"></div>
+
+        <details class="raw">
+          <summary>Show the message with phrases highlighted</summary>
+          <div id="highlighted" class="highlighted"></div>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Powered by <a href="https://www.npmjs.com/package/is-this-passive-aggressive"><code>is-this-passive-aggressive</code></a> —
+        the same engine in a CLI: <code>npx is-this-passive-aggressive draft.txt</code>.
+        <a href="https://github.com/didrod205/is-this-passive-aggressive">GitHub</a> · MIT
+      </p>
+      <p class="dim">Tone is context. A “friendly reminder” from a friend is friendly; from the person whose deadline you blew, less so. This reads the <em>clichés</em> — you read the room.</p>
+    </footer>
+
+  </body>
+</html>
